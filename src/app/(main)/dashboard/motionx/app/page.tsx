@@ -14,9 +14,7 @@ export default function Home() {
         </a>
      
        
-        <a href="https://tomaslonnblad.github.io/">
-         example 2
-        </a>
+     
 
     <div className="flex h-full flex-col items-justify-space-y-2 text-">
   
