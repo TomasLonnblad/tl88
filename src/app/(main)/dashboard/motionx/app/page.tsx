@@ -5,46 +5,51 @@ export default function Home() {
   return (
       <main>
 
- <div className="flex h-full flex-col items-justify- space-y-2 text-">
-      <h1 className="font-semibold text-2xl">3D Design</h1>
-     
-        {" "}
-        <a href="https://tomaslonnblad.github.io/tleeee">
-         3D Nodes group
-        </a>
-     
-       
-     
 
-    <div className="flex h-full flex-col items-justify-space-y-2 text-">
+   <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+             <MetalButton variant="gold">
+            <a
+            href="https://tomaslonnblad.github.io/"
+           
+          > 
+           3D Design</a></MetalButton>
+        </div> 
+
+<br></br>
+
+   <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+             <MetalButton variant="success">
+            <a
+            href="https://tomaslonnblad.github.io/"
+           
+          > 
+           The usage of the 3D threejs on nextjs and on html</a></MetalButton>
+        </div> 
   
 
-    <div className="flex min-h-screen items-center justify-center">
+<div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
       <MetalButton variant="bronze">
                   <a
             href="https://tomaslonnblad.github.io/"
              > 
-           3D </a>
+           3D Nodes group (mobile) </a>
       </MetalButton>
     </div>
-    
 
-<br></br>
-      <h1>Shadcn and radix component with Next.js</h1>
       <p>
-        {" "}
-        <a href="https://tomaslonnblad.github.io/">
-         This page demonstrates the usage of the 3D nextjs and on html
-
-
-         
-          and Gesap with the designm tool tailwind. Framer Motion.
-        Different examples.
-        </a>{" "}
-        
       </p>
-</div>
-    </div>
+
+
+
+   <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+             <MetalButton variant="primary">
+            <a
+            href="https://tomaslonnblad.github.io/"
+           
+          > 
+           Shadcn and radix component with Next.js </a></MetalButton>
+        </div> 
+
 
    <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
              <MetalButton variant="default">
@@ -52,9 +57,11 @@ export default function Home() {
             href="https://tomaslonnblad.github.io/"
            
           > 
-           3D </a></MetalButton>
+           Gesap and framer motion </a></MetalButton>
         </div> 
     </main>
 
   )}
+
+
 
